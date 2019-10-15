@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Luke Childs - DOM Etch-a-Sketch</title>
+        <link href="style.css" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <div class="title"><h1>Luke Childs - DOM Etch-a-Sketch</h1></div>
+        
+        <div class="content">
+            <div class="content buttons"> 
+                <button onclick='setPenColor("#FF0000");'>Red Pen</button>
+                <button onclick='setPenColor("#00FF00");'>Green Pen</button>
+                <button onclick='setPenColor("#0000FF");'>Blue Pen</button>
+                <button onclick='setPenColor("#000000");'>Black Pen </button>
+                <br><br>
+                <button onclick='setPenColor("#FFFFFF");'> Eraser</button>
+                <br><br>
+                <button onclick="clearGrid();">Clear Grid</button>
+            </div>
+            <div class="grid"></div>
+        </div>
+
+
+        
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>

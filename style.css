@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica;
+}
+
+.title {
+    text-decoration: underline;
+    text-align: center;
+    margin: 2% 2% 2% 2%;
+}
+
+.content {
+    color: red;
+    text-align: center;
+}
+
+.grid {
+    margin-top: 5%;
+    background-color: #EEEEEE;
+    display: inline-grid;
+    gap: 0px;
+    border: 1px solid black;
+}
+
+.gridElement {
+    border: 0.5px solid #eeeeee;
+    background-color: white;
+}
